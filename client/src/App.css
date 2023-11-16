@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --prcol: #de483a;
+  --sccol: #fefdfc;
+  --textcol: rgb(25, 33, 116);
+}
+
+header h1{
+  color: var(--textcol);
+  text-align: center;
+  margin-top: 200px;
+  font-size: 70px;
+}
+
+.todoinput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  padding: 10px;
+}
+
+form{
+  margin-left: 500px;
+  margin-top: 35px;
+}
+
+article{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+article ul{
+  list-style: none;
+  padding-left: 62px; 
+  padding-top: 11px;
+  width: 500px;
+}
+
+article ul li{
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #34495e;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 22px;
+}
+
+.icons{
+  float: right;
+  padding: 0px 5px;
+}
+
+.formEdit{
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+}
+
+.edit-todo{
+  width: 85%;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+}
+
+.button{
+  padding: 10px;
+  margin: 2px 5px;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button.selected{
+  background-color: #6c6777;
+  color: white;
+  border-radius: 5px;
+}
+
+.button.clear{
+  float: right;
+  background-color: #de483a;
+}
